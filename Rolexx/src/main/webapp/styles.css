@@ -1,0 +1,306 @@
+@charset "UTF-8";
+@charset "UTF-8";
+*
+{
+  margin:0%;
+  padding:0%;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to top,#a433cd,#f291f0,#4c188d);
+}
+.log 
+   {
+    color: yellow;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    font-family: Dancing Script;
+    font-weight:bold;
+    font-size:20px;
+}
+.rolex h1 {
+    position: absolute;
+    top: 0%;
+    color: yellow;
+    font-size: 60px;
+    font-family: Dancing Script;
+    font-weight:bolder;
+}
+form 
+{
+    position:absolute;
+    top:30%;
+    left:48%;
+    display:flex;
+    flex-direction:column;
+}
+label
+{
+    margin-left:10%;
+}
+input
+{
+    width:80%;
+    margin: 10% auto;
+    margin-bottom:10%;
+    border:none;
+    outline:none;
+    background:none;
+    border-bottom: 2px solid black ;
+    
+}
+.button button
+{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    width:100px;
+    margin-left:25px;
+    margin-top:7px;
+    border-radius:10px 10px;
+}
+.menu {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 17px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul li a 
+{
+        text-decoration: none;
+        color:yellow;
+}
+img
+{
+    width:50px;
+    height:50px;
+    position:absolute;
+    left:17%;
+    top:3%;
+    border-radius:10px 10px;
+}
+p {
+    position: absolute;
+    top: 35%;
+    text-align:center;
+    font-size: 20px;
+    align-items: center;
+    color: yellow;
+    font-family:'Book Antiqua';
+}
+h2 {
+    color: aqua;
+    position: absolute;
+    left:27%;
+    top: 23%;
+    font-family: Dancing Script;
+    font-weight: bolder;
+    font-size:28px;
+
+}
+.about h1 
+{
+    font-family: Dancing Script;
+    color: yellow;
+    position: absolute;
+    left: 47%;
+    top: 5%;
+    font-size:50px;
+}
+.cmp h2
+{
+    font-family: Dancing Script;
+    position:absolute;
+    top:25%;
+    left:30%;
+    text-align:center;
+
+}
+.cust p
+{
+    position:absolute;
+    top:70%;
+    left:24%;
+    
+}
+h3
+{
+    color:aquamarine;
+    font-size:30px;
+}
+.year
+{
+ position:absolute;
+ top:80%;
+ left:26%;
+}
+.year nav
+{
+    position:absolute;
+    top:51px;
+    font-size:25px;
+    font-family:sans-serif;
+    color:darkorange;
+}
+.customers
+{
+    position:absolute;
+    top:80%;
+    left:42%;
+}
+    .customers nav {
+        position: absolute;
+        top: 51px;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: darkorange;
+    }
+.team 
+{
+    position:absolute;
+    top:80%;
+    left:65%;
+}
+    .team nav {
+        position: absolute;
+        top: 51px;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: darkorange;
+    }
+.praga img
+{
+ position:absolute;
+ top:110%;
+ width:200px;
+ height:200px;
+}
+.aswin img {
+    position: absolute;
+    top: 145%;
+    width: 200px;
+    height: 200px;
+}
+.karthi img {
+    position: absolute;
+    top: 180%;
+    width: 200px;
+    height: 200px;
+}
+.gokul img {
+    position: absolute;
+    top: 220%;
+    width: 200px;
+    height: 200px;
+}
+.siva img {
+    position: absolute;
+    top: 260%;
+    width: 200px;
+    height: 200px;
+}
+.ravin img {
+    position: absolute;
+    top: 290%;
+    width: 200px;
+    height: 200px;
+}
+.name1 h3 {
+    position: absolute;
+    top: 120%;
+    left: 45%;
+    color: aliceblue;
+}
+.name2 h3 {
+    position: absolute;
+    top: 155%;
+    left: 45%;
+    color: aliceblue;
+}
+.name3 h3 {
+    position: absolute;
+    top: 190%;
+    left: 45%;
+    color: aliceblue;
+}
+.name4 h3 {
+    position: absolute;
+    top: 230%;
+    left: 45%;
+    color:aliceblue;
+}
+.name5 h3 {
+    position: absolute;
+    top: 270%;
+    left: 45%;
+    color: aliceblue;
+}
+.name6 h3 {
+    position: absolute;
+    top: 310%;
+    left: 45%;
+    color: aliceblue;
+}
+.us h3{
+    position:absolute;
+    top:99%;
+    left:47%;
+    font-size:40px;
+    color:springgreen;
+}
+.welcome h1
+{
+	position: absolute;
+    top: 0%;
+    color: yellow;
+    font-size: 60px;
+    font-family: Dancing Script;
+    font-weight:bolder;
+	
+}
+.ad h2
+{
+	position: absolute;
+    top: 30%;
+    left:45%;
+    color: yellow;
+    font-size: 40px;
+    font-family: Dancing Script;
+    font-weight:bolder;
+}
+.tru img
+{
+	postion:absolute;
+	top:48%;
+	left:5%;
+	width:150px;
+	height:150px;
+}
+.slot 
+{
+	position:absolute;
+	top:55%;
+	left:49%;
+
+}
+.slot label
+{
+	font-size:35px;
+	font-family: Dancing Script;
+    font-weight:bolder;
+    color:yellow;
+}
+
+
+
